@@ -1,0 +1,330 @@
+body{
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+     padding: 0;
+     margin: 0;
+     background-color:whitesmoke;
+}
+ .container{
+    margin:auto;
+     width: 80%;
+     overflow: hidden;
+}
+/* Header **/
+ header{
+     background:#35424a;
+     color:#ffffff;
+     padding-top:30px;
+     min-height:70px;
+     border-bottom:#e8491d 3px solid;
+}
+ header a{
+     color:#ffffff;
+     text-decoration:none;
+     text-transform: uppercase;
+     font-size:16px;
+}
+ header li{
+     float: left;
+     display:inline;
+     padding: 0 20px 0 20px;
+}
+ header #branding{
+     float: left;
+     padding-left: 30px;
+     padding-right: 30px;
+}
+ header #branding img{
+    float: left;
+    width: 60px;
+    height: 60px;
+     padding-right: 25px;
+    margin-bottom: 30px;
+}
+ header #branding h1{
+    float: left;
+     margin:0;
+}
+ header nav{
+     float:right;
+     padding-top: 12px;
+}
+ header .highlight, header .current a{
+     color:#e8491d;
+     font-weight:bold;
+}
+ header a:hover{
+     color:#e8491d;
+     font-weight:bold;
+}
+ ul{
+     margin:0;
+     padding:0;
+}
+ #first-part{
+     min-height: 600px;
+     background: url("./img/dunare.jpg");
+     background-size: cover;
+     border-bottom:#e8491d 3px solid;
+}
+ #first-part h1{
+     font-size: 30px;
+     text-align: center;
+}
+ #first-part p{
+     font-size:20px;
+     text-align: center;
+}
+ #box{
+    float:left;
+     text-align: center;
+     width: 30%;
+     padding: 10px;
+}
+ #box img{
+    border-radius: 8px;
+     margin-top: 20px;
+     border:#e8491d 3px solid;
+     width: 300px;
+}
+ #box h1{
+    text-align: center;
+}
+ #box p{
+    text-align: justify;
+}
+ footer{
+    margin-top: 20px;
+     background:#35424a;
+     margin-bottom: 10px;
+     padding: 10px;
+     text-align: center;
+}
+ #about-first h1{
+     font-size: 30px;
+     text-align: center;
+}
+ #boxa h1{
+    text-align: center;
+}
+ #boxa p{
+    text-align: center;
+}
+ #boxa img{
+    margin-left: 25%;
+    margin-left: 25%;
+}
+ .incercare li{
+    padding: 10px;
+    margin-left: 20px;
+}
+ div.gallery {
+     margin: 5px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 180px;
+}
+ div.gallery:hover {
+     border: 1px solid #777;
+}
+ div.gallery img {
+     width: 100%;
+     height: auto;
+}
+ div.desc {
+     padding: 15px;
+     text-align: center;
+}
+ .imagini img{
+     padding: 10px;
+     margin-left: 20%;
+     margin-right: 25%;
+     width: 750px;
+     margin-top: 20px;
+}
+ .imagini h3{
+    text-align: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+     width: 100%;
+    /* Full width */
+     padding: 12px;
+    /* Some padding */
+     border: 1px solid #ccc;
+    /* Gray border */
+     border-radius: 4px;
+    /* Rounded borders */
+     box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+     margin-top: 6px;
+    /* Add a top margin */
+     margin-bottom: 16px;
+    /* Bottom margin */
+     resize: vertical 
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+ input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+ input[type=submit]:hover {
+     background-color: #45a049;
+}
+ .contactul li{
+     padding: 5px;
+     text-align: center 
+}
+ #vox{
+    border-style: solid;
+     border-color: #35424a;
+     margin-top: 10px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+ .pcontact{
+     font-size: 15px;
+     font-style: italic;
+}
+ .gmap_canvas{
+    margin-left: 60%;
+}
+/* Slideshow container */
+ .slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin-top: 20px;
+     margin-right: 18%;
+     margin-left: 18%;
+}
+/* Hide the images by default */
+ .mySlides {
+     display: none;
+}
+/* Next & previous buttons */
+ .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+}
+/* Position the "next button" to the right */
+ .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+ .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+}
+/* Number text (1/3 etc) */
+ .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+}
+/* The dots/bullets/indicators */
+ .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+}
+ .active, .dot:hover {
+     background-color: #717171;
+}
+/* Fading animation */
+ .fade {
+     -webkit-animation-name: fade;
+     -webkit-animation-duration: 1.5s;
+     animation-name: fade;
+     animation-duration: 1.5s;
+}
+ @-webkit-keyframes fade {
+     from {
+        opacity: .4
+    }
+     to {
+        opacity: 1
+    }
+}
+ @keyframes fade {
+     from {
+        opacity: .4
+    }
+     to {
+        opacity: 1
+    }
+}
+ .row:after {
+     content: "";
+     display: table;
+     clear: both 
+}
+ .column-66 {
+     float: left;
+     width: 66.66666%;
+     padding: 20px;
+}
+ .column-33 {
+     float: left;
+     width: 33.33333%;
+     padding: 20px;
+}
+ .large-font {
+     font-size: 48px;
+}
+ .xlarge-font {
+     font-size: 64px 
+}
+ .button {
+     border: none;
+     color: white;
+     padding: 14px 28px;
+     font-size: 16px;
+     cursor: pointer;
+     background-color: #4CAF50;
+}
+ img {
+     display: block;
+     height: auto;
+     max-width: 100%;
+}
+ @media screen and (max-width: 1000px) {
+     .column-66, .column-33 {
+         width: 100%;
+         text-align: center;
+    }
+     img {
+         margin: auto;
+    }
+}
